@@ -1,0 +1,64 @@
+/* Color Theme Swatches in Hex */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 10px;
+  line-height: normal;
+}
+
+header {
+  background-color: #159A9C;
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0;
+}
+header input {
+  padding: 2rem 1rem;
+  border: none;
+  border-radius: 15px 0 0 15px;
+}
+header button {
+  color: white;
+  background-color: #002333;
+  border: none;
+  border-radius: 0 15px 15px 0;
+  padding: 0 2rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #DEEFE7;
+  width: min(1000px, 90vw);
+  margin: 0 auto;
+}
+.list div {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  padding: 1rem 0;
+}
+.list div h1 {
+  text-align: center;
+  color: #002333;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+.list div h1 .taskCompleted {
+  background-color: green;
+}
+.list div button.deleteTask {
+  background-color: #159A9C;
+  color: #FFFFFF;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 1rem;
+}/*# sourceMappingURL=styles.css.map */
